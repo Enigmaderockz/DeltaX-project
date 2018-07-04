@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [deltaX]">
+  <test thread-count="5" name="QATCs(failed)">
+    <classes>
+      <class name="com.deltaX.QATCs.RegisterationFormTestNG">
+        <methods>
+          <include name="screenCapture"/>
+          <include name="cleanUp"/>
+          <include name="registerUserWithInvalidPhone"/>
+          <include name="GetConfigProperties"/>
+          <include name="CloseBrowser"/>
+          <include name="InvokeBrowser"/>
+          <include name="registerUserWithInvalidConfirmPassword"/>
+        </methods>
+      </class> <!-- com.deltaX.QATCs.RegisterationFormTestNG -->
+    </classes>
+  </test> <!-- QATCs(failed) -->
+</suite> <!-- Failed suite [deltaX] -->

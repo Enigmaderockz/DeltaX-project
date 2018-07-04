@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="0" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23041" started-at="2018-07-03T19:57:24Z" finished-at="2018-07-03T19:57:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23041" started-at="2018-07-03T19:57:24Z" finished-at="2018-07-03T19:57:47Z">
+      <class name="com.deltaX.QATCs.RegisterationFormDataDrivenTestNG">
+        <test-method status="PASS" signature="GetConfigProperties()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="GetConfigProperties" is-config="true" duration-ms="175" started-at="2018-07-03T19:57:23Z" finished-at="2018-07-03T19:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetConfigProperties -->
+        <test-method status="PASS" signature="InvokeBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="InvokeBrowser" is-config="true" duration-ms="6713" started-at="2018-07-03T19:57:24Z" finished-at="2018-07-03T19:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="PASS" signature="RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="RegisterationWithDataDriven" duration-ms="2002" started-at="2018-07-03T19:57:31Z" data-provider="getData" finished-at="2018-07-03T19:57:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhinandan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mehandiratta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enigmarockers]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[livehooding]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[livehooding]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abhi.voyage@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationWithDataDriven -->
+        <test-method status="PASS" signature="screenCapture(org.testng.ITestResult)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="screenCapture" is-config="true" duration-ms="1" started-at="2018-07-03T19:57:33Z" finished-at="2018-07-03T19:57:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterationWithDataDriven status=SUCCESS method=RegisterationFormDataDrivenTestNG.RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="CloseBrowser" is-config="true" duration-ms="768" started-at="2018-07-03T19:57:33Z" depends-on-methods="com.deltaX.QATCs.BasicScenarios.screenCapture" finished-at="2018-07-03T19:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="InvokeBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="InvokeBrowser" is-config="true" duration-ms="6423" started-at="2018-07-03T19:57:34Z" finished-at="2018-07-03T19:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="PASS" signature="RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="RegisterationWithDataDriven" duration-ms="1830" started-at="2018-07-03T19:57:40Z" data-provider="getData" finished-at="2018-07-03T19:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enigmarockers]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[livehooding]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[livehooding]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abhi.voyage@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationWithDataDriven -->
+        <test-method status="PASS" signature="screenCapture(org.testng.ITestResult)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="screenCapture" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:42Z" finished-at="2018-07-03T19:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterationWithDataDriven status=SUCCESS method=RegisterationFormDataDrivenTestNG.RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="CloseBrowser" is-config="true" duration-ms="752" started-at="2018-07-03T19:57:42Z" depends-on-methods="com.deltaX.QATCs.BasicScenarios.screenCapture" finished-at="2018-07-03T19:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="FAIL" signature="InvokeBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="InvokeBrowser" is-config="true" duration-ms="3211" started-at="2018-07-03T19:57:43Z" finished-at="2018-07-03T19:57:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occured...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occured...
+at org.testng.Assert.fail(Assert.java:96)
+at com.deltaX.QATCs.BasicScenarios.InvokeBrowser(BasicScenarios.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="SKIP" signature="RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="RegisterationWithDataDriven" duration-ms="0" started-at="2018-07-03T19:57:46Z" data-provider="getData" finished-at="2018-07-03T19:57:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occured...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occured...
+at org.testng.Assert.fail(Assert.java:96)
+at com.deltaX.QATCs.BasicScenarios.InvokeBrowser(BasicScenarios.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationWithDataDriven -->
+        <test-method status="SKIP" signature="screenCapture(org.testng.ITestResult)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="screenCapture" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:46Z" finished-at="2018-07-03T19:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="CloseBrowser" is-config="true" duration-ms="750" started-at="2018-07-03T19:57:46Z" depends-on-methods="com.deltaX.QATCs.BasicScenarios.screenCapture" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="SKIP" signature="InvokeBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="InvokeBrowser" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="SKIP" signature="RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="RegisterationWithDataDriven" duration-ms="0" started-at="2018-07-03T19:57:47Z" data-provider="getData" finished-at="2018-07-03T19:57:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occured...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occured...
+at org.testng.Assert.fail(Assert.java:96)
+at com.deltaX.QATCs.BasicScenarios.InvokeBrowser(BasicScenarios.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationWithDataDriven -->
+        <test-method status="SKIP" signature="screenCapture(org.testng.ITestResult)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="screenCapture" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" depends-on-methods="com.deltaX.QATCs.BasicScenarios.screenCapture" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="SKIP" signature="InvokeBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="InvokeBrowser" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="SKIP" signature="RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="RegisterationWithDataDriven" duration-ms="0" started-at="2018-07-03T19:57:47Z" data-provider="getData" finished-at="2018-07-03T19:57:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occured...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occured...
+at org.testng.Assert.fail(Assert.java:96)
+at com.deltaX.QATCs.BasicScenarios.InvokeBrowser(BasicScenarios.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationWithDataDriven -->
+        <test-method status="SKIP" signature="screenCapture(org.testng.ITestResult)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="screenCapture" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" depends-on-methods="com.deltaX.QATCs.BasicScenarios.screenCapture" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="SKIP" signature="InvokeBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="InvokeBrowser" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="SKIP" signature="RegisterationWithDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="RegisterationWithDataDriven" duration-ms="0" started-at="2018-07-03T19:57:47Z" data-provider="getData" finished-at="2018-07-03T19:57:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occured...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occured...
+at org.testng.Assert.fail(Assert.java:96)
+at com.deltaX.QATCs.BasicScenarios.InvokeBrowser(BasicScenarios.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationWithDataDriven -->
+        <test-method status="SKIP" signature="screenCapture(org.testng.ITestResult)[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="screenCapture" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" depends-on-methods="com.deltaX.QATCs.BasicScenarios.screenCapture" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:com.deltaX.QATCs.RegisterationFormDataDrivenTestNG@27f723]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-07-03T19:57:47Z" finished-at="2018-07-03T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.deltaX.QATCs.RegisterationFormDataDrivenTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
